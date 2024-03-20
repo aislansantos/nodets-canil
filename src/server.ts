@@ -20,8 +20,8 @@ server.use(express.static(path.join(__dirname, "../public")));
 server.use(mainRoutes);
 
 // Pagina erro - 404
-server.use((req, res)=> {
-    res.send("Página não encontrada! ")
+server.use((req, res) => {
+    res.render("pages/404");
 })
 
 

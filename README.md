@@ -1,5 +1,5 @@
 # nodets-canil
-Projeto de Node + Typescript
+Projeto de Node + Typescript + Mustache
 
 ### Pré-requisitos globais:
 `npm install -g nodemon typescript ts-node`

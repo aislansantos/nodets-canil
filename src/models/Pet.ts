@@ -131,7 +131,7 @@ const data: Pet[] = [
         image: 'acara.jpg',
         name: 'Acará Bandeira',
         color: 'Preto',
-        sex: 'Masculino'
+        sex: 'Feminino'
     },
 ]
 
@@ -143,10 +143,10 @@ export const Pet = {
     getFromType: (type: PetType): Pet[] => {
         return data.filter(item => (item.type === type));
     },
-    
+
     getFromName: (name: string): Pet[] => {
         return data.filter(item =>
-            item.name.toLowerCase().indexOf(name.toLowerCase()) > -1
+            item.name.toLowerCase().includes(name.toLowerCase())
         );
     }
 };

@@ -2,7 +2,7 @@
   "name": "nodets-canil",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "enginer": {
     "node": "20.x"
   },
